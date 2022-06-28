@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="sass/custom.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="#">CeroSiete</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control nav-form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container bg-light mt-n5">
+        <h1 class="text-center py-5 display-6">Contacto</h1>
+        <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea non obcaecati eveniet eaque voluptatum ipsam commodi laborum? Aliquam, sequi nulla nesciunt blanditiis obcaecati magni voluptatum sunt et ad modi perspiciatis! Lorem ipsum dolor sit,
+            amet consectetur adipisicing elit. Ad cupiditate esse quos reiciendis magnam porro nesciunt inventore quam eveniet iure molestias ipsa, quod a impedit cumque animi vero voluptatibus similique.</p>
+        <div class="pt-5">
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Nome" required>
+                    <div class="valid-feedback">Valido</div>
+                    <div class="invalid-feedback">Digiatre il tuo nome</div>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Cognome" required>
+                    <div class="valid-feedback">Valido</div>
+                    <div class="invalid-feedback">Digiatre il tuo cognome</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="Nome utente" required>
+                        <div class="valid-feedback">Valido</div>
+                        <div class="invalid-feedback">Digitare il tuo nome utente</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" id="validationCustom03" placeholder="Città" required>
+                    <div class="invalid-feedback">
+                        Digiatre la tua città
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Stato</option>
+                    <option>Italia</option>
+                    <option>Portogallo</option>
+                    <option>Spagna</option>
+                    <option>Francia</option>
+                    <option>Germania</option>
+                    <option>Svizzera</option>
+                    <option>Belgio</option>
+                  </select>
+                    <div class="invalid-feedback">
+                        Seleziona il tuo Stato
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" class="form-control" id="validationCustom05" placeholder="CAP" required>
+                    <div class="invalid-feedback">Si prega di fornire un codice postale valido.</div>
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">Accetta i termini e le condizioni</label>
+                        <div class="invalid-feedback">Devi accettare prima di inviare.</div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-success" type="submit">Invia</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer mt-auto py-3 bg-light container">
+        <hr>
+        <div class="container text-center">
+            <div class="row">
+                <div class="lead col-12">Aurelio Greco | maggio 2021</div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/formulario.js"></script>
+</body>
+
+</html>
